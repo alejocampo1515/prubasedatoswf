@@ -21,6 +21,10 @@ public class Demo1Application {
 				String origin = "*";
 				registry.addMapping("/**").allowedHeaders("Authorization", "Accept", "Content-Type", "Referer", "User-Agent").allowedOrigins(origin).allowedMethods("GET", "POST", "OPTIONS", "PUT", "DELETE");
 			}
+			
+			
 		};
+		
+		
 	}
 }
